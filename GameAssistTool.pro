@@ -12,17 +12,17 @@ RC_ICONS = jeejeeicon.ico
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        colorimageprovider.cpp \
-        covershowwindow.cpp \
-        covertransparentwindow.cpp \
-        gameapplicationenginewrapper.cpp \
-        gamescriptclipboard.cpp \
-        gamescriptimageprocessor.cpp \
-        gamescriptruninstance.cpp \
-        gamescriptruninstancetimeprofiler.cpp \
-        gamescriptrunningtask.cpp \
-        globalsettingsprofile.cpp \
-        main.cpp
+        src/colorimageprovider.cpp \
+        src/covershowwindow.cpp \
+        src/covertransparentwindow.cpp \
+        src/gameapplicationenginewrapper.cpp \
+        src/gamescriptclipboard.cpp \
+        src/gamescriptimageprocessor.cpp \
+        src/gamescriptruninstance.cpp \
+        src/gamescriptruninstancetimeprofiler.cpp \
+        src/gamescriptrunningtask.cpp \
+        src/globalsettingsprofile.cpp \
+        src/main.cpp
 
 RESOURCES += qml.qrc \
              font.qrc \
@@ -48,17 +48,17 @@ LIBS+= -luser32
 }
 
 HEADERS += \
-    colorimageprovider.h \
-    covershowwindow.h \
-    covertransparentwindow.h \
-    gameapplicationenginewrapper.h \
-    gamescriptclipboard.h \
-    gamescriptimageprocessor.h \
-    gamescriptruninstance.h \
-    gamescriptruninstancetimeprofiler.h \
-    gamescriptrunningtask.h \
-    globalsettingsprofile.h \
-    toolheader.h
+    src/colorimageprovider.h \
+    src/covershowwindow.h \
+    src/covertransparentwindow.h \
+    src/gameapplicationenginewrapper.h \
+    src/gamescriptclipboard.h \
+    src/gamescriptimageprocessor.h \
+    src/gamescriptruninstance.h \
+    src/gamescriptruninstancetimeprofiler.h \
+    src/gamescriptrunningtask.h \
+    src/globalsettingsprofile.h \
+    src/toolheader.h
 
 
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../opencv/opencv/build/x64/vc16/lib/ -lopencv_world470
