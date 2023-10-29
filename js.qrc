@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/" lang="JavaScript"/>
+    <qresource prefix="/">
+        <file>js/globalConfiguration.js</file>
+    </qresource>
+</RCC>

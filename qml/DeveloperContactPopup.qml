@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 import GameScriptClipBoard 1.0
 Popup {
 

@@ -5,7 +5,7 @@ import QtQml 2.3
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.3
 import GlobalSettingsProfile 1.0
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 Item {
 

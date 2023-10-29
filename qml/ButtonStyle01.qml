@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.5
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 Button
 {
@@ -13,19 +13,19 @@ Button
     contentItem: Text {
         text: btnIconCode
         font.family: btnIconFamily
-        font.pixelSize: rootBtn.hovered ? btnIconPixelSize + 4 : btnIconPixelSize
+        font.pixelSize: btnIconPixelSize
         opacity: enabled ? 1.0 : 0.3
-        color: rootBtn.down ? GlobalConfig.buttonStyle02_IconDownColor : GlobalConfig.buttonStyle02_IconColor
+        color: rootBtn.down ? GlobalConfig.buttonStyle01_IconDownColor : GlobalConfig.buttonStyle01_IconColor
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
     }
 
     background: Rectangle {
         opacity: rootBtn.hovered ? 1 : 0.0
-        border.color: rootBtn.down ? GlobalConfig.buttonStyle02_BorderDownColor : GlobalConfig.buttonStyle02_BorderColor
+        border.color: rootBtn.down ? GlobalConfig.buttonStyle01_BorderDownColor : GlobalConfig.buttonStyle01_BorderColor
         border.width: 1
         radius: 2
-        color: rootBtn.down ? GlobalConfig.buttonStyle02_BackGroundDownColor : GlobalConfig.buttonStyle02_BackGroundColor
+        color: rootBtn.down ? GlobalConfig.buttonStyle01_BackGroundDownColor : GlobalConfig.buttonStyle01_BackGroundColor
     }
 
     hoverEnabled: true

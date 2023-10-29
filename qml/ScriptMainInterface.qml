@@ -6,7 +6,7 @@ import GameScriptRunInstance 1.0
 import CoverTransparentWindow 1.0
 import CoverShowWindow 1.0
 import Qt.labs.platform 1.0
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 
 Rectangle

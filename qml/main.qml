@@ -4,7 +4,7 @@ import QtQuick.Controls.Material 2.3
 import QtQuick.Window 2.3
 import QtQml 2.3
 import QtQuick.Layouts 1.3
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 ApplicationWindow {
     id: rootWindow

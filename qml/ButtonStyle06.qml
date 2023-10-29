@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.5
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 Button
 {

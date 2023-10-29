@@ -25,7 +25,8 @@ SOURCES += \
         main.cpp
 
 RESOURCES += qml.qrc \
-             font.qrc
+             font.qrc \
+             js.qrc
 
 INCLUDEPATH += $$PWD/../opencv/opencv/build/include
 INCLUDEPATH += $$PWD/../opencv/opencv/build/include/opencv2

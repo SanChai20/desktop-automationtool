@@ -4,7 +4,7 @@ GameApplicationEngineWrapper::GameApplicationEngineWrapper(QGuiApplication& app,
 {
     m_rEngine.addImageProvider(QLatin1String("captures"), new ColorImageProvider);
 #if QT_DEVELOPMENT
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
 #else
     const QUrl url(QStringLiteral("main.qml"));
 #endif

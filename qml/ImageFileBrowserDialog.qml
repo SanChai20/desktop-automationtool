@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Qt.labs.platform 1.0
-import "globalConfiguration.js" as GlobalConfig
+import "../js/globalConfiguration.js" as GlobalConfig
 
 FileDialog {
 
