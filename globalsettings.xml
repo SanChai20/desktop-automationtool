@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GlobalSettingsProfile>
-    <detectType>1</detectType>
-    <matchType>2</matchType>
-    <policyType>2</policyType>
-    <languageType>0</languageType>
-    <kNNRatio>0.3</kNNRatio>
-</GlobalSettingsProfile>
