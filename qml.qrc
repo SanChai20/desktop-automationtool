@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ScriptMainInterface.qml</file>
+        <file>ScriptMainContent.qml</file>
+        <file>LogPrintWindow.qml</file>
+        <file>CommandStepWindow.qml</file>
+        <file>TimelineBar.qml</file>
+        <file>globalConfiguration.js</file>
+        <file>ButtonStyle01.qml</file>
+        <file>ButtonStyle02.qml</file>
+        <file>ButtonStyle03.qml</file>
+        <file>CaptureLogWindow.qml</file>
+        <file>DebugCoverWindow.qml</file>
+        <file>ImageFileBrowserDialog.qml</file>
+        <file>ButtonStyle04.qml</file>
+        <file>DeveloperContactPopup.qml</file>
+        <file>AdvancedSettingsPopup.qml</file>
+        <file>ButtonStyle05.qml</file>
+        <file>ButtonStyle06.qml</file>
+    </qresource>
+</RCC>

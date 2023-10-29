@@ -1,0 +1,14 @@
+#ifndef TOOLHEADER_H
+#define TOOLHEADER_H
+
+#define LOG_PREFIX_COMMON "LOG: "
+#define LOG_PREFIX_WARNING "WARNING: "
+#define LOG_PREFIX_ERROR "ERROR: "
+
+#define LOG_MAKE_COMMON(log) LOG_PREFIX_COMMON + ##log
+
+#define LOG_MAKE_ERROR(log) LOG_PREFIX_ERROR + ##log
+
+#define LOG_MAKE_WARNING(log) LOG_PREFIX_WARNING + ##log
+
+#endif // TOOLHEADER_H
